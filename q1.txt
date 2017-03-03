@@ -1,0 +1,17 @@
+1. Which of the following statements will potentially execute? And give values for A, B and C that will make the statement execute:
+   1- if A is true AND B is true AND C is true THEN color="blue"
+   2- else if A is true AND B is false AND C is false THEN color="red"
+   3- else if A is true AND A is false THEN color="orange"
+    4-else if A is true AND B is false AND C is true THEN color="green"
+   5- else color="yellow"
+    ANS:
+    THE statements 0ne  execute when the value of A=true ,b=true,c=true
+    THE statements two execute when the value of A=true ,b=false,c=false
+     THE statements three is not  execute
+      THE statements four  execute when the value of A=true ,b=false,c=true
+       THE statements five  execute when the 
+      or value of A=false ,b=false,c=true
+      or value of A=false ,b=true,c=false
+      or value of A=false ,b=true,c=true
+      or value of A=true ,b=true,c=false
+       

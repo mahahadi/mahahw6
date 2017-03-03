@@ -1,0 +1,27 @@
+a94:~/workspace (master) $ h;dt 
+    1  ls
+    2  pwd
+    3  history
+    4  alias h='history'
+    5  h
+    6  date +"%r %a %d %h %y (Julian Date: %j)"
+    7  date "+DATE: %m/%d/%y%nTIME: %H:%M:%S"
+    8  alias dt='date "+DATE: %m/%d/%y%nTIME: %H:%M:%S"'
+    9  dt
+   10  h|at
+   11  h
+   12  ls
+   13  pwd
+   14  history
+   15  alias h='history'
+   16  h
+   17  alias dt='date "+DATE: %m/%d/%y%nTIME: %H:%M:%S"'
+   18  dt
+   19  h|dt
+   20  h;dt
+   21  h revers
+   22  h;dt reverses
+   23  h;dt (revers)
+   24  h;dt 
+DATE: 03/02/17
+TIME: 11:04:28

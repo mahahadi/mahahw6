@@ -1,0 +1,45 @@
+
+maha94:~/workspace (master) $ ls
+README.md  hello-world.html
+maha94:~/workspace (master) $ pwd
+/home/ubuntu/workspace
+maha94:~/workspace (master) $ history
+    1  ls
+    2  pwd
+    3  history
+    4  alias h='history'
+    5  h
+    6  date +"%r %a %d %h %y (Julian Date: %j)"
+    7  date "+DATE: %m/%d/%y%nTIME: %H:%M:%S"
+    8  alias dt='date "+DATE: %m/%d/%y%nTIME: %H:%M:%S"'
+    9  dt
+   10  h|at
+   11  h
+   12  ls
+   13  pwd
+   14  history
+maha94:~/workspace (master) $ alias h='history'
+maha94:~/workspace (master) $ h
+    1  ls
+    2  pwd
+    3  history
+    4  alias h='history'
+    5  h
+    6  date +"%r %a %d %h %y (Julian Date: %j)"
+    7  date "+DATE: %m/%d/%y%nTIME: %H:%M:%S"
+    8  alias dt='date "+DATE: %m/%d/%y%nTIME: %H:%M:%S"'
+    9  dt
+   10  h|at
+   11  h
+   12  ls
+   13  pwd
+   14  history
+   15  alias h='history'
+   16  h
+maha94:~/workspace (master) $ alias dt='date "+DATE: %m/%d/%y%nTIME: %H:%M:%S"'
+maha94:~/workspace (master) $ dt
+DATE: 03/02/17
+TIME: 10:40:25
+maha94:~/workspace (master) $ h|dt
+DATE: 03/02/17
+TIME: 10:40:45
