@@ -1,0 +1,15 @@
+2. Which of the following statements will potentially execute? And give values for A, B and C that will make the statement execute:
+   1-if A is true OR A is false OR B is true OR C is true THEN color="blue"
+   2- else if A is true OR B is false OR C is false THEN color="red"
+   3- else if A is true OR B is false OR C is true THEN color="green"
+    4-else color="yellow"
+    ANS:
+    A     B     C
+    T     T     T = BLUE     
+    F     T     T=BLUE
+    T     F     T=BLUE
+    F     F     T=BLUE
+    T     T     F=BLUE
+    F     T     F=BLUE
+    T     F     F=BLUE
+    F     F     F=BLUE

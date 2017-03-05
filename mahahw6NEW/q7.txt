@@ -1,0 +1,23 @@
+7. Read the following program:
+
+variable x = 0
+variable y = x - 5
+variable z = y
+
+variable d = x + 5
+variable e = d * 5
+variable z = e - d 
+variable x = x + 2
+Print all the final variable values at the end of the program
+ANS:y= -5
+z= -5 
+d= 5
+e= 5*5=25
+z= 25-5=20
+x=2
+the final variable values at the end of the program is
+x=2
+y= -5
+z=20
+d=5
+e=25

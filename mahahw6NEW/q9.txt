@@ -1,0 +1,45 @@
+maha94:~/workspace (master) $ ls
+maha94:~/workspace (master) $ ls
+README.md  q1.txt  q2.txt  q3.txt  q5.txt  q6.txt  q7.txt  q8.txt  q9.txt
+maha94:~/workspace (master) $ pwd
+/home/ubuntu/workspace
+maha94:~/workspace (master) $ ls
+README.md  q1.txt  q2.txt  q3.txt  q5.txt  q6.txt  q7.txt  q8.txt  q9.txt
+maha94:~/workspace (master) $ pwd
+/home/ubuntu/workspace
+maha94:~/workspace (master) $  history
+    1  ls
+    2  pwd
+maha94:~/workspace (master) $ alias h='history'
+maha94:~/workspace (master) $ h
+    1  ls
+    2  pwd
+    3  alias h='history'
+    4  h
+maha94:~/workspace (master) $ date +"%r %a %d %h %y (Julian Date: %j)"
+03:38:24 PM Fri 03 Mar 17 (Julian Date: 062)
+maha94:~/workspace (master) $ alias dt='date "+DATE: %m/%d/%y%nTIME: %H:%M:%S"'
+maha94:~/workspace (master) $ dt
+DATE: 03/03/17
+TIME: 15:39:51
+maha94:~/workspace (master) $ dt|h
+    1  ls
+    2  pwd
+    3  alias h='history'
+    4  h
+    5  date +"%r %a %d %h %y (Julian Date: %j)"
+    6  alias dt='date "+DATE: %m/%d/%y%nTIME: %H:%M:%S"'
+    7  dt
+    8  dt|h
+maha94:~/workspace (master) $ h;dt
+    1  ls
+    2  pwd
+    3  alias h='history'
+    4  h
+    5  date +"%r %a %d %h %y (Julian Date: %j)"
+    6  alias dt='date "+DATE: %m/%d/%y%nTIME: %H:%M:%S"'
+    7  dt
+    8  dt|h
+    9  h;dt
+DATE: 03/03/17
+TIME: 15:56:47

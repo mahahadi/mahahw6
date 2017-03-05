@@ -1,0 +1,38 @@
+table, th, td {
+   border: 1px solid black;
+}
+
+
+thead{
+    font-weight: bold;
+    
+    
+}
+a:link {
+    text-decoration: none;
+      border-style: solid;
+    border-color: #ff0000 ;
+    background-color: rad;
+    
+}
+
+a:visited {
+    text-decoration: none;
+      border-style: solid;
+    border-color: #ff0000 ; 
+    background-color: red;
+   
+   
+}
+
+a:hover {
+    text-decoration: none;
+      border-style: solid;
+    border-color: #ff0000;
+    background-color: green;
+    
+}
+p.italic {
+    font-style: italic ;
+    
+}
