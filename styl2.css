@@ -1,0 +1,25 @@
+#Pa1 {
+    display: inline
+    
+
+}
+#Pa2 {
+    display: inline
+}
+#or{
+    list-style-image: url('https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQR56z1tImgjw-8L2-zPe8kr61oZDxmqyjxdAQqQQ2K2tsPD3wz');
+}
+
+#ap{
+    list-style-image: url('https://static1.squarespace.com/static/52428a0ae4b0c4a5c2a2cede/t/53cd78a3e4b02a3a052c10f1/1405974691825/Apple.png');
+    
+}
+#st{
+    list-style-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTlMUKlAAy7X8xewMmMa1WWHnq1K2M2ySaEtlMzW5Rxu3r_AsrnQ')
+}
+#gr{
+    list-style-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQw3eRKKqfJmDWT_Wc_jF5qbbI0B_rCg21BUGR3k3DGKYwV7exYCA');
+}
+#bl{
+    list-style-image: url('https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSjOHjG8RhR9FP0jufxMYpXoHnp8bhU2qU-Po7Gasimxb53xhiTwg');
+}

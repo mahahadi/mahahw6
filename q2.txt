@@ -4,7 +4,12 @@
    3- else if A is true OR B is false OR C is true THEN color="green"
     4-else color="yellow"
     ANS:
-    1 statements is execute when c=true
-    2 statements is execute when c=false
-    3 not execute
-    4- not execute
+    A     B     C
+    T     T     T = BLUE     
+    F     T     T=BLUE
+    T     F     T=BLUE
+    F     F     T=BLUE
+    T     T     F=BLUE
+    F     T     F=BLUE
+    T     F     F=BLUE
+    F     F     F=BLUE

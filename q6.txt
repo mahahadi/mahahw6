@@ -13,7 +13,7 @@
  
  Answer the following:
     5.1. What is the final value of "holder" when the program is done running? 
-    sol: the final value of "holder" when the program is done running=21
+    sol: the final value of "holder" when the program is done running=20
     
     5.2. What is the final value of "i" when the program is done running?
     ANS:the final value of "i" when the program is done running=10
